@@ -1,4 +1,4 @@
-import * as NBHeap from "./heap.node";
+import * as NBHeap from "./heap.array";
 
 test("heap.node: max heap simple", () => {
   let heap = new NBHeap.Heap<number>((a, b) => a > b); // max-heap by default
