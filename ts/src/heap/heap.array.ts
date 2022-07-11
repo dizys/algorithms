@@ -87,7 +87,7 @@ export class Heap<T> {
     }
   }
 
-  get top(): T | undefined {
+  peek(): (T | undefined) {
     if (this.empty) {
       return undefined;
     }
